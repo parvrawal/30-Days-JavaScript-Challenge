@@ -1,4 +1,3 @@
-console.log("I'm working");
 
 // Activity 1:- 
 var totalPrice = 240;
