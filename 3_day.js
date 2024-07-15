@@ -28,7 +28,7 @@ if (age >= 18) {
 
 // Activity 2 - Nested If -else Statements
 
-//Task 3- Write a program to find the largest of three numbers using nested if-else statments
+//Task 3- Write a program to find the largest of three numbers using nested if-else statements
 
 let num1 = 23;
 let num2 = 4;
