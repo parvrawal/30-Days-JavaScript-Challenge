@@ -84,7 +84,7 @@ switch (week) {
     console.log("Invaild ");
 }
 
-//Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C','D','F') based  on a score  and log the result to the console
+//Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based  on a score  and log the result to the console
 
 let marks = 67;
 let grade = "";
@@ -111,7 +111,7 @@ switch (true) {
 
 console.log(grade);
 
-//  In this case True statement allows each case to evaluate a boolean expression
+//  In this case a True statement allows each case to evaluate a boolean expression
 
 
 // Activity 4 - Conditional (Ternary) Operator
@@ -126,7 +126,7 @@ console.log(check);
 
 // Activity 5- Combining Condition
 
-//  Task 7: Write a program to check  if a year  is a leap year using multiple condition ( divisible by 4, but not 100 unless also divisible by 400 ) log the result to the console
+//  Task 7: Write a program to check  if a year  is a leap year using multiple conditions ( divisible by 4, but not 100 unless also divisible by 400 ) log the result to the console
 
 let year = 2025;
 
