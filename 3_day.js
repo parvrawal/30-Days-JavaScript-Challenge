@@ -124,7 +124,7 @@ let check = (value % 2 === 0) ? "Even" : "Odd" ;
 
 console.log(check);
 
-// Activity 5- Combining Conditon
+// Activity 5- Combining Condition
 
 //  Task 7: Write a program to check  if a year  is a leap year using multiple conditon ( divisible by 4, but not 100 unless also divisible by 400 ) and the log the result to the console
 
