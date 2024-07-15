@@ -66,7 +66,7 @@ switch (week) {
     console.log("Monday");
     break;
   case 3:
-    console.log("Tuseday");
+    console.log("Tuesday");
     break;
   case 4:
     console.log("Wednesday");
@@ -126,7 +126,7 @@ console.log(check);
 
 // Activity 5- Combining Condition
 
-//  Task 7: Write a program to check  if a year  is a leap year using multiple conditon ( divisible by 4, but not 100 unless also divisible by 400 ) log the result to the console
+//  Task 7: Write a program to check  if a year  is a leap year using multiple condition ( divisible by 4, but not 100 unless also divisible by 400 ) log the result to the console
 
 let year = 2025;
 
