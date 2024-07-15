@@ -54,7 +54,7 @@ console.log(`The largest number among ${num1}, ${num2}, ${num3} is ${largest}`);
 
 // Activity 3- Switch Case
 
-//Task 4- Write a program that uses a switch case to determine the day of the week based on a number (1-7) and the log the result to the console
+//Task 4- Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the result to the console
 
 let week = 5;
 
@@ -84,7 +84,7 @@ switch (week) {
     console.log("Invaild ");
 }
 
-//Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C','D','F') based  on a score  and the log the result to the console
+//Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C','D','F') based  on a score  and log the result to the console
 
 let marks = 67;
 let grade = "";
@@ -126,7 +126,7 @@ console.log(check);
 
 // Activity 5- Combining Condition
 
-//  Task 7: Write a program to check  if a year  is a leap year using multiple conditon ( divisible by 4, but not 100 unless also divisible by 400 ) and the log the result to the console
+//  Task 7: Write a program to check  if a year  is a leap year using multiple conditon ( divisible by 4, but not 100 unless also divisible by 400 ) log the result to the console
 
 let year = 2025;
 
