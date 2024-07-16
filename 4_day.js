@@ -8,7 +8,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
-// Task 2- Write a program to print multiplication table of 5 using a for loop
+// Task 2- Write a program to print a multiplication table of 5 using a for loop
 let number = 5;
 
 for (let i = 1; i <= 10; i++) {
@@ -77,7 +77,7 @@ for (let i = 1; i <= rows; i++) {
 
 // Activity 5: Loop Control Statements
 
-//  Task 8- Write a program to print numbers from 1 to 10, but skip the number 5 using the continue statment
+//  Task 8- Write a program to print numbers from 1 to 10, but skip the number 5 using the continue statement
 
 for (let i = 1; i <= 10; i++) {
   if (i === 5) {
