@@ -76,7 +76,7 @@ let multiply = (a, b = 1) => {
 console.log(multiply(5, 6));
 console.log(multiply(3));
 
-// Task 8 - Write a function that takes a person's name and age and return a greeting message. provide  a default value for the age
+// Task 8 - Write a function that takes a person's name and age and returns a greeting message. provide  a default value for the age
 
 function information(name, age = 18) {
   if (name && age) {
