@@ -45,7 +45,7 @@ console.log(str);
 
 // Activity 3: Arrow Function
 
-// Task 5- Write a arrow function to calculate the sum of two numbers and return the result
+// Task 5- Write an arrow function to calculate the sum of two numbers and return the result
 
 let sum = (num1, num2) => {
   return `The sum of the ${num1} and ${num2} is ${num1 + num2}`;
@@ -54,7 +54,7 @@ let sum = (num1, num2) => {
 let val = sum(4, 6);
 console.log(val);
 
-// Task 6- Write a arrow function to check if a string contains a specific character and return a boolean value
+// Task 6- Write an arrow function to check if a string contains a specific character and return a boolean value
 
 let arr = (arr1, arr2) => {
   return arr1.includes(arr2);
