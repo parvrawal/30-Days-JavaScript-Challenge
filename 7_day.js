@@ -44,7 +44,7 @@ console.log(oldBook.setYear(2024));
 
 // Activity 3: Nested Objects
 
-// Task 5 -  Create nested object representing a liberay with properties like name and books (an array of  book objects ), and log the  liberay object to the console
+// Task 5 -  Create nested object representing a library with properties like name and books (an array of  book objects ), and log the  liberay object to the console
 
 const library = {
   Name: "City Library",
