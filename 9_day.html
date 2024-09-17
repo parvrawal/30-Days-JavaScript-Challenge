@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .oldClass { color: blue }
+      .newClass { background-color: yellow }
+    </style>
+  </head>
+  <body>
+    <div class="upper" id="upper">
+      <p>The upper part shows the graphical image</p>
+    </div>
+
+    <div class="container">
+      <ul class="list">
+        <li>TypeScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>C</li>
+      </ul>
+    </div>
+    <div class="list-week">
+      <ul>
+        <li>Monday</li>
+        <li>Tuseday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+        <li>Sunday</li>
+      </ul>
+    </div>
+    <div class="box">Not any More</div>
+    
+    <div class="image">
+      <img class="imgElement"   src="stand on roof.jpg" alt="Model">
+    </div>
+    <div id="id" class="oldClass">
+      Power Ranger
+    </div>
+    <div class="box">
+      <button class="bot">CLick Here to change Text</button>
+      <p class="click">Best Childhood Cartoon Award goes to ---</p>
+    </div>
+  <script>
+    // Day 9: DOM Manipulation
+
+    // Activity 1: Selecting and Manipulating Elements
+
+    // Task 1- Select an HTML element by ID and change its text content.
+
+    const upper = document.querySelector("#upper");
+    upper.style.color = "red";
+
+    // Task 2- Select an HTML elements by its class and chnages its background color
+
+    const bgm = document.querySelector(".upper");
+    bgm.style.backgroundColor = "blue";
+
+    // Activity 2: Creating and Appending Elements
+
+    // Task 3- Create a  new div element with some text content and append it to body
+    const div = document.createElement("div");
+    div.textContent = "Are You Expecting Me?";
+    div.classList = "hover"
+
+    document.body.appendChild(div);
+
+    // Task 4- Create a new li element and add it to an existing ul list
+
+    const li = document.createElement("li");
+    li.textContent = "JavaScript";
+    document.querySelector(".list").appendChild(li);
+
+    // Activity 3: Removing Elements
+
+    // Task 5- Select  an HTML element and remove it from the DOM
+    const box = document.querySelector(".box");
+    box.remove();
+
+    // Task 6 -Remove all the last child of specific HTML element
+
+    const rem = document.querySelector(".list-week ul li:last-child");
+    rem.remove();
+
+    // Activity 4: Modifying Attributes and Classes
+
+    // Task 7- Select an HTML element and changes one of its attributes (eg.,src of an img tag)
+
+    const reset = document.querySelector(".imgElement")
+    reset.setAttribute("src", "giphy.jpg")
+
+    // Task 8- Add and remove a CSS class to/from an HTML element
+
+    const newClas = document.querySelector("#id").classList = "newClass"
+
+    // Activity 5: Event Handling 
+
+    // Task 9- Add a click event listener to a button that changes the text content of a paragraph
+    const bot = document.querySelector(".bot")
+    bot.addEventListener("click",() => {
+      document.querySelector(".click").innerHTML = "Ben 10"
+      bot.innerHTML = "Good Job"
+    },false)
+
+    // Task 10- Add a mouseover event listener to an element that changes its border color
+    
+    const border = document.querySelector(".hover")
+    border.addEventListener("mouseover", (event) => {
+      event.target.style.border = "2px solid green"
+
+      setTimeout(()=>{
+        event.target.style.border = "";
+
+      },500)
+    },false)
+    
+  </script>
+</html>
